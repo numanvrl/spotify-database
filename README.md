@@ -9,9 +9,9 @@ instructions:
 * parameters for scripts
 * python3 insert_all.py --host localhost --database spotify --user root --password /empty/ --path ../datasets/spotify-top-200-dataset.csv
 
---host for the host of the mysql server (optional, localhost by default)
---port for the port of the mysql server (optional, 3306 by default)
---database for the database name from mysql server (optional, spotify by default)
---user for the user of the mysql server (optional, admin by default)
---password for the password of the user (optional, empty by default)
---path for the file path of the csv dataset (optional, ../datasets/spotify-top-200-dataset.csv by default)
+* --host for the host of the mysql server (optional, localhost by default)
+* --port for the port of the mysql server (optional, 3306 by default)
+* --database for the database name from mysql server (optional, spotify by default)
+* --user for the user of the mysql server (optional, admin by default)
+* --password for the password of the user (optional, empty by default)
+* *--path for the file path of the csv dataset (optional, ../datasets/spotify-top-200-dataset.csv by default)
