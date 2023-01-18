@@ -1,13 +1,15 @@
 # spotify-database
 A 3NF Spotify database using dataset from Spotify API which weekly-top-200-songs.
 
-instructions:
+## instructions:
 * clone the repository
 * create the database as instructed in create_database.sql
 * install requirements with python3 -m pip install -r requirements.txt
 * go to scripts directory and execute python3 insert_all.py with desired parameters
-* parameters for scripts
-* python3 insert_all.py --host localhost --database spotify --user root --password /empty/ --path ../datasets/spotify-top-200-dataset.csv
+
+
+## parameters for scripts 
+python3 insert_all.py --host localhost --database spotify --user root --password /empty/ --path ../datasets/spotify-top-200-dataset.csv
 
 * --host for the host of the mysql server (optional, localhost by default)
 * --port for the port of the mysql server (optional, 3306 by default)
