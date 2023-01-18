@@ -14,4 +14,4 @@ instructions:
 * --database for the database name from mysql server (optional, spotify by default)
 * --user for the user of the mysql server (optional, admin by default)
 * --password for the password of the user (optional, empty by default)
-* *--path* for the file path of the csv dataset (optional, ../datasets/spotify-top-200-dataset.csv by default)
+* --path for the file path of the csv dataset (optional, ../datasets/spotify-top-200-dataset.csv by default)
